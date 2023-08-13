@@ -1,0 +1,1 @@
+For the readme head over to https://renewed-scripts.gitbook.io/renewed-scripts/paid-scripts/renewed-chopshop/how-to-install for the full readme
