@@ -149,7 +149,7 @@ end
 -- Events
 
 RegisterNetEvent('consumables:client:Eat', function(itemName)
-    TriggerEvent('animations:client:EmoteCommandStart', {"eat"})
+    TriggerEvent('animations:client:EmoteCommandStart', {"desert"})
     QBCore.Functions.Progressbar("eat_something", Lang:t('consumables.eat_progress'), 4000, false, true, {
         disableMovement = false,
         disableCarMovement = false,

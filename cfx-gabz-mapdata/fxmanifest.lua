@@ -2,7 +2,7 @@ fx_version 'cerulean'
 game 'gta5'
 author 'Gabz'
 description 'Mapdata'
-version '1.0.0'
+version '1.0.2'
 lua54 'yes'
 this_is_a_map 'yes'
 
@@ -30,4 +30,5 @@ escrow_ignore {
     'gabz-doorlocks/*.lua',
     'gabz_entityset_mods1.lua',
 }
+
 dependency '/assetpacks'

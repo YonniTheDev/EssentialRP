@@ -232,11 +232,11 @@ RegisterNUICallback('setupCharacters', function(_, cb)
                             local data = json.decode(v[2])
                             TriggerEvent('qb-clothing:client:loadPlayerClothing', data, charPed)
                             NewPeds[k] = {charPed}
-                            -- RequestAnimDict("rcm_barry3")
-                            -- while not HasAnimDictLoaded("rcm_barry3") do 
-                            --     Wait(100)
-                            -- end
-                            -- TaskPlayAnim(charPed,"rcm_barry3", "barry_3_sit_loop", 3.0, 3.0, -1, 1, 0, 0, 0, 0)
+                            RequestAnimDict("rcm_barry3")
+                            while not HasAnimDictLoaded("rcm_barry3") do 
+                                Wait(100)
+                            end
+                            TaskPlayAnim(charPed,"rcm_barry3", "barry_3_sit_loop", 3.0, 3.0, -1, 1, 0, 0, 0, 0)
                         end)
                     elseif Config.Clothing['fivem-appearance'] then
                         CreateThread(function()
